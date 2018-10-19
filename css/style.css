@@ -27,18 +27,18 @@ nav a {
   text-decoration: none;
 }
 
-/* Link Color States */
+/* Link Color Psuedo Classes */
 nav a:link {
-  color: blue;
-}
-nav a:visited {
-  color: purple;
-}
-nav a:hover {
   color: white;
 }
+nav a:visited {
+  color: black;
+}
+nav a:hover {
+  color: blue;
+}
 nav a:active {
-  color: gray;
+  color: #7887D3;
 }
 
 .author {
